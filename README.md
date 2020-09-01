@@ -1,2 +1,2 @@
-# NodeJS to e-ink
+# NodeJS to E-Ink
 desc...
