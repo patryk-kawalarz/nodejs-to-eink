@@ -1,0 +1,16 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "dist",
+    "sourceMap": true
+  },
+  "include": [
+    "app.ts",
+  ],
+  "exclude": [
+    "node_modules",
+    ".vscode"
+  ]
+}
