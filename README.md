@@ -7,15 +7,21 @@ I spent a lot of time figuring out how to convert a canvas object to a monochro
 
 ## Installation & usage
 
-Download source code and run Node app server:
+Download source code and install dependencies:
 
 ```bash
-npm run live
+npm i
 ```
 
-Upload `display.ino` to your arduino hardware. 
+Now run Node app server:
 
-Make sure that you have correct IP address of your Node app server. I tested it on localhost so I used my local IP address: `167.0.0.42`.
+```bash
+nodemon app
+```
+
+Upload `display.ino` to your arduino hardware.
+
+Make sure that you know correct IP address of your Node app server. I tested it on localhost so I used my local IP address: `192.168.0.42`.
 
 ### My hardware
 Tested on [Waveshare 5.83" E-Ink display](https://www.waveshare.com/wiki/5.83inch_e-Paper_HAT) and [NodeMCU v2](https://www.seeedstudio.com/NodeMCU-v2-Lua-based-ESP8266-development-kit.html).

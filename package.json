@@ -1,0 +1,36 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --inspect=5858 -r ts-node/register ./app.ts --hostname 0.0.0.0",
+    "start:watch": "nodemon",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.11",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.2"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "**/*.test.ts",
+      "**/*.spec.ts",
+      ".git",
+      "node_modules"
+    ],
+    "watch": [
+      ""
+    ],
+    "exec": "npm start",
+    "ext": "ts"
+  }
+}
