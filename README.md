@@ -1,5 +1,5 @@
 # NodeJS to E-Ink
-Convert any NodeJS generated canvas to stream data which can be easily handled by Arduino based hardware (like ESP8266) and display it on the E-Ink display.
+Convert any NodeJS generated canvas to stream data which can be easily handled by Arduino based hardware (like ESP8266) and displayed on the E-Ink display.
 
 ## About
 
